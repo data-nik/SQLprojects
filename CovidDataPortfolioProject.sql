@@ -49,7 +49,6 @@ GROUP BY Location
 ORDER BY TotalDeathCount DESC
 
 
---LET'S BREAK THINGS DOWN BY CONTINENT
 --Showing Continents with Highest Death Counts
 
 SELECT continent, MAX(CAST(total_deaths AS INT)) AS TotalDeathCount
